@@ -177,8 +177,10 @@ admins（管理员）
 ### ✍️ 制作者以及编辑者
 此仓库由 [水之蔻放](http://kf.waterchisato.top)  组织编写  
 ![水之蔻放](http://logo.kf.waterchisato.top/zy/kf/Gemini_Generated_Image_j8ue0wj8ue0wj8ue.png "图片title")  
-由 Copilot 生成     
+由 Copilot 生成大部分代码     
 ![Copilot](http://logo.kf.waterchisato.top/mc-ai.png "copilot")  
+由 水喝千束 进行编写
+![waterchisato](http://logo.kf.waterchisato.top/pic/web_logo.jpeg "chisato")
 
 ---
 
