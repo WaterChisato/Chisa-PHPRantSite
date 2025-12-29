@@ -172,6 +172,9 @@ admins（管理员）
 
 如果你觉得这个项目不错，欢迎点一个 Star！
 
+---
+
+### ✍️ 制作者以及编辑者
 此仓库由 [水之蔻放](http://kf.waterchisato.top)  组织编写  
 ![水之蔻放](http://logo.kf.waterchisato.top/zy/kf/Gemini_Generated_Image_j8ue0wj8ue0wj8ue.png "图片title")
 
