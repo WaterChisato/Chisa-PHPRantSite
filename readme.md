@@ -72,13 +72,13 @@ cd 你的仓库名
 ### 3. 配置数据库
 
 编辑 config.php：
-
-`php
+~~~
+php
 $host = "localhost";
 $dbname = "tucao";
 $user = "root";      // 示例账号
 $pass = "123456";    // 示例密码
-`
+~~~
 
 > ⚠️ 请不要在 GitHub 上传真实数据库密码。
 
