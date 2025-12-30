@@ -155,6 +155,31 @@ input {
         <input name="p" placeholder="密码">
         <button class="btn btn-primary">添加</button>
     </form>
+    <div class="section-title">文章管理</div>
+
+<?php
+$posts = $pdo->query("SELECT * FROM posts ORDER BY id DESC")->fetchAll();
+foreach ($posts as $p):
+?>
+    <div class="reply-box">
+        <div class="reply-meta">
+            <strong><?= htmlspecialchars($p['title']) ?></strong>
+            <?php if ($p['edited']): ?>
+                <span style="color:#fbbf24;">（已编辑）</span>
+            <?php endif; ?>
+            · <?= $p['created_at'] ?>
+        </div>
+
+        <div class="reply-actions">
+            <a class="btn btn-primary" href="post_edit.php?id=<?= $p['id'] ?>">编辑</a>
+            <a class="btn btn-danger"
+               href="post_delete.php?id=<?= $p['id'] ?>"
+               onclick="return confirm('确定删除这篇文章吗？');">
+               删除
+            </a>
+        </div>
+    </div>
+<?php endforeach; ?>
 
 </div>
 
